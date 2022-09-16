@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "AdaptiveUI",
             dependencies: []),
-        .testTarget(
-            name: "AdaptiveUITests",
-            dependencies: ["AdaptiveUI"]),
     ]
 )
